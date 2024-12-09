@@ -76,7 +76,7 @@ const generateBotResponse = async (incomingMessageDiv) => {
 // Show a loading animation while waiting for the bot's response
 const showLoadingAnimation = () => {
     const html = `<div class="message-content">
-                    <img class="avatar" src="../static/img/gemini.svg" alt="Bot avatar">
+                    <img class="avatar" src="../static/img/chatbot.gif" alt="Bot avatar">
                     <p class="text"></p>
                     <div class="loading-indicator">
                         <div class="loading-bar"></div>
